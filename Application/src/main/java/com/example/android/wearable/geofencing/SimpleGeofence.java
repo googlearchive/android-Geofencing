@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.geofencing;
+package com.example.android.wearable.geofencing;
 
 import com.google.android.gms.location.Geofence;
 

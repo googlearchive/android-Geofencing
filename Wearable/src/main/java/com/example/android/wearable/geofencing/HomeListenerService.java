@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.example.android.geofencing;
+package com.example.android.wearable.geofencing;
 
-import static com.example.android.geofencing.Constants.ACTION_CHECK_IN;
-import static com.example.android.geofencing.Constants.ACTION_DELETE_DATA_ITEM;
-import static com.example.android.geofencing.Constants.ANDROID_BUILDING_ID;
-import static com.example.android.geofencing.Constants.KEY_GEOFENCE_ID;
-import static com.example.android.geofencing.Constants.NOTIFICATION_ID;
-import static com.example.android.geofencing.Constants.TAG;
-import static com.example.android.geofencing.Constants.YERBA_BUENA_ID;
+import static com.example.android.wearable.geofencing.Constants.ACTION_CHECK_IN;
+import static com.example.android.wearable.geofencing.Constants.ACTION_DELETE_DATA_ITEM;
+import static com.example.android.wearable.geofencing.Constants.ANDROID_BUILDING_ID;
+import static com.example.android.wearable.geofencing.Constants.KEY_GEOFENCE_ID;
+import static com.example.android.wearable.geofencing.Constants.NOTIFICATION_ID;
+import static com.example.android.wearable.geofencing.Constants.TAG;
+import static com.example.android.wearable.geofencing.Constants.YERBA_BUENA_ID;
 
 import android.app.Notification;
 import android.app.Notification.Action;

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.example.android.geofencing;
+package com.example.android.wearable.geofencing;
 
-import static com.example.android.geofencing.Constants.CONNECTION_TIME_OUT_MS;
-import static com.example.android.geofencing.Constants.GEOFENCE_DATA_ITEM_PATH;
-import static com.example.android.geofencing.Constants.GEOFENCE_DATA_ITEM_URI;
-import static com.example.android.geofencing.Constants.KEY_GEOFENCE_ID;
-import static com.example.android.geofencing.Constants.TAG;
+import static com.example.android.wearable.geofencing.Constants.CONNECTION_TIME_OUT_MS;
+import static com.example.android.wearable.geofencing.Constants.GEOFENCE_DATA_ITEM_PATH;
+import static com.example.android.wearable.geofencing.Constants.GEOFENCE_DATA_ITEM_URI;
+import static com.example.android.wearable.geofencing.Constants.KEY_GEOFENCE_ID;
+import static com.example.android.wearable.geofencing.Constants.TAG;
 
 import android.app.IntentService;
 import android.content.Intent;

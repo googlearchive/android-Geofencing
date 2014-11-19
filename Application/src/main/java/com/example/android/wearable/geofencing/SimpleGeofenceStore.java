@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.example.android.geofencing;
+package com.example.android.wearable.geofencing;
 
-import static com.example.android.geofencing.Constants.INVALID_FLOAT_VALUE;
-import static com.example.android.geofencing.Constants.INVALID_INT_VALUE;
-import static com.example.android.geofencing.Constants.INVALID_LONG_VALUE;
-import static com.example.android.geofencing.Constants.KEY_EXPIRATION_DURATION;
-import static com.example.android.geofencing.Constants.KEY_LATITUDE;
-import static com.example.android.geofencing.Constants.KEY_LONGITUDE;
-import static com.example.android.geofencing.Constants.KEY_PREFIX;
-import static com.example.android.geofencing.Constants.KEY_RADIUS;
-import static com.example.android.geofencing.Constants.KEY_TRANSITION_TYPE;
+import static com.example.android.wearable.geofencing.Constants.INVALID_FLOAT_VALUE;
+import static com.example.android.wearable.geofencing.Constants.INVALID_INT_VALUE;
+import static com.example.android.wearable.geofencing.Constants.INVALID_LONG_VALUE;
+import static com.example.android.wearable.geofencing.Constants.KEY_EXPIRATION_DURATION;
+import static com.example.android.wearable.geofencing.Constants.KEY_LATITUDE;
+import static com.example.android.wearable.geofencing.Constants.KEY_LONGITUDE;
+import static com.example.android.wearable.geofencing.Constants.KEY_PREFIX;
+import static com.example.android.wearable.geofencing.Constants.KEY_RADIUS;
+import static com.example.android.wearable.geofencing.Constants.KEY_TRANSITION_TYPE;
 
 import android.content.Context;
 import android.content.SharedPreferences;

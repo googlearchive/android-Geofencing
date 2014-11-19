@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.geofencing;
+package com.example.android.wearable.geofencing;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -31,11 +31,11 @@ import android.util.Log;
 
 import java.util.concurrent.TimeUnit;
 
-import static com.example.android.geofencing.Constants.ACTION_CHECK_IN;
-import static com.example.android.geofencing.Constants.ACTION_DELETE_DATA_ITEM;
-import static com.example.android.geofencing.Constants.CONNECTION_TIME_OUT_MS;
-import static com.example.android.geofencing.Constants.NOTIFICATION_ID;
-import static com.example.android.geofencing.Constants.TAG;
+import static com.example.android.wearable.geofencing.Constants.ACTION_CHECK_IN;
+import static com.example.android.wearable.geofencing.Constants.ACTION_DELETE_DATA_ITEM;
+import static com.example.android.wearable.geofencing.Constants.CONNECTION_TIME_OUT_MS;
+import static com.example.android.wearable.geofencing.Constants.NOTIFICATION_ID;
+import static com.example.android.wearable.geofencing.Constants.TAG;
 
 /**
  * Handles "Check In" action on the location-based notification. Also deletes orphan DataItems

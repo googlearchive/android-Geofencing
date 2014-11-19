@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.geofencing;
+package com.example.android.wearable.geofencing;
 
 /** Constants used in wearable app. */
 public final class Constants {

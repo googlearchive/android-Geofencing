@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.example.android.geofencing;
+package com.example.android.wearable.geofencing;
 
-import static com.example.android.geofencing.Constants.ANDROID_BUILDING_ID;
-import static com.example.android.geofencing.Constants.ANDROID_BUILDING_LATITUDE;
-import static com.example.android.geofencing.Constants.ANDROID_BUILDING_LONGITUDE;
-import static com.example.android.geofencing.Constants.ANDROID_BUILDING_RADIUS_METERS;
-import static com.example.android.geofencing.Constants.CONNECTION_FAILURE_RESOLUTION_REQUEST;
-import static com.example.android.geofencing.Constants.GEOFENCE_EXPIRATION_TIME;
-import static com.example.android.geofencing.Constants.TAG;
-import static com.example.android.geofencing.Constants.YERBA_BUENA_ID;
-import static com.example.android.geofencing.Constants.YERBA_BUENA_LATITUDE;
-import static com.example.android.geofencing.Constants.YERBA_BUENA_LONGITUDE;
-import static com.example.android.geofencing.Constants.YERBA_BUENA_RADIUS_METERS;
+import static com.example.android.wearable.geofencing.Constants.ANDROID_BUILDING_ID;
+import static com.example.android.wearable.geofencing.Constants.ANDROID_BUILDING_LATITUDE;
+import static com.example.android.wearable.geofencing.Constants.ANDROID_BUILDING_LONGITUDE;
+import static com.example.android.wearable.geofencing.Constants.ANDROID_BUILDING_RADIUS_METERS;
+import static com.example.android.wearable.geofencing.Constants.CONNECTION_FAILURE_RESOLUTION_REQUEST;
+import static com.example.android.wearable.geofencing.Constants.GEOFENCE_EXPIRATION_TIME;
+import static com.example.android.wearable.geofencing.Constants.TAG;
+import static com.example.android.wearable.geofencing.Constants.YERBA_BUENA_ID;
+import static com.example.android.wearable.geofencing.Constants.YERBA_BUENA_LATITUDE;
+import static com.example.android.wearable.geofencing.Constants.YERBA_BUENA_LONGITUDE;
+import static com.example.android.wearable.geofencing.Constants.YERBA_BUENA_RADIUS_METERS;
 
 import android.app.Activity;
 import android.app.PendingIntent;
