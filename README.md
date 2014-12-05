@@ -1,10 +1,36 @@
 Android Geofencing Sample
 ===================================
 
-When a user enters the vicinity of the Android building (B44) or the Yerba Buena
-Gardens near the Moscone center in San Francisco, a notification silently appears on his/her
-wearable with an option to check in. This notification automatically disappears when he/she leaves
-the area, and reappears the next time he/she is at one of these locations.
+When the user enters the vicinity of the Android building (B44) or the Yerba Buena
+Gardens near the Moscone center in San Francisco, a notification silently appears on their
+wearable with an option to check in. This notification automatically disappears when they leave
+the area, and reappears the next time they are at one of these locations.
+
+Introduction
+------------
+
+Geofencing combines awareness of the user's current location with awareness of
+nearby features, defined as the user's proximity to locations that may be of
+interest. To mark a location of interest, you specify its latitude and longitude.
+To adjust the proximity for the location, you add a radius. The latitude,
+longitude, and radius define a geofence. You can have multiple active
+geofences at one time.
+
+To use geofencing, start by defining the geofences you want to monitor.
+Although you usually store geofence data in a local database or download
+it from the network, you need to send a geofence to Location Services as
+an instance of [Geofence][2], which you create with `Geofence.Builder`. Each
+Geofence object contains the following information:
+
+1. Latitude, longitude, and radius
+2. Expiration time
+3. Transition type
+4. Geofence ID
+
+Read more about geofences in [Creating and Monitoring Geofences][1].
+
+[1]:http://developer.android.com/training/location/geofencing.html
+[2]:http://developer.android.com/reference/com/google/android/gms/location/Geofence.html
 
 Pre-requisites
 --------------
@@ -12,6 +38,11 @@ Pre-requisites
 - Android SDK v21
 - Android Build Tools v21.1.1
 - Android Support Repository
+
+Screenshots
+-------------
+
+<img src="screenshots/android_building_check_in.png" height="400" alt="Screenshot"/> 
 
 Getting Started
 ---------------

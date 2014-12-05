@@ -5,8 +5,12 @@
 ---
 status:       PUBLISHED
 technologies: [Android]
-categories:   [Wearable]
+categories:   [Wearable, Sensors]
 languages:    [Java]
 solutions:    [Mobile]
 github:       android-Geofencing
+level:        ADVANCED
+icon:         screenshots/icon-web.png
+apiRefs:
+    - android:com.google.android.gms.location.Geofence
 license: apache2
