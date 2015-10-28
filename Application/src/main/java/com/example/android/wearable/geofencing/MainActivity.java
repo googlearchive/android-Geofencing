@@ -73,7 +73,7 @@ public class MainActivity extends Activity implements ConnectionCallbacks,
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // Rather than displayng this activity, simply display a toast indicating that the geofence
+        // Rather than displaying this activity, simply display a toast indicating that the geofence
         // service is being created. This should happen in less than a second.
         if (!isGooglePlayServicesAvailable()) {
             Log.e(TAG, "Google Play services unavailable.");
